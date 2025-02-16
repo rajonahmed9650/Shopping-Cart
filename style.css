@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+.blurred{
+    filter: blur(1px);
+    transition: filter 0.3s ease; 
+}
+
+
+.products-contanir {
+    display: flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 50px; 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+}
+.img{
+   
+    height: auto;
+}
+
+.card img{
+    height: 200px;
+    object-fit: contain;
+    width: 30%;
+}
+
+.card h2 {
+    font-size: 1em;
+    color: #333;
+}
+
+
+
+
+.card i {
+    font-size: 13px;
+    color: #555;
+    margin: 10px 0;
+    line-height: 0.4px;
+}
+
+.card strong {
+    font-size: 1.1em;
+    color: #007BFF;
+}
+.btnpirce{
+    display: flex;
+    flex-direction: column;
+
+}
+.btnpirce button{
+    margin-top: 6px;
+}
+
+#SideBar{
+    height: 100vh;
+    width: 400px;
+}
+.cart-item{
+    border: 1px solid #f73005;
+    padding: 5px;
+}
+.button{
+    font-size: 10px;
+}
+.removebtn{
+    font-size: 12px;
+    border: none;
+    color:white;
+    background-color: #f73005;
+    padding: 3px 4px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+.quaantityarea{
+    display: flex;
+    justify-content:space-between;
+    gap: 10px;
+
+}
+
+
+.quantiy{
+    display: flex;
+    justify-content: space-between;
+    background-color: #ccc;
+    width: 50%;
+    padding: 3px;
+    border-radius: 4px;
+}
+.quantiy button{
+    border: none;
+    background: none;
+    font: bold;
+}
+.SideBarHeading{
+    background-color: #ccc;
+}
+
+/* .subtotal{
+   
+    display: flex;
+    justify-content: space-between;  
+
+} */
+
+/* .subtotal p{
+    font-size: 13px;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+} */
+
+
+.subtotal {
+    font-family: "Poppins", serif;
+    background-color: #f8f9fa; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.subtotal-label {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #333; 
+}
+
+.subtotal-amount {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #007bff; 
+}
+
+.subtotal:hover {
+    background-color: #e9ecef; 
+    cursor: pointer;
+}
+
+.BrandImg{
+    width: 80px;
+    height: 80px;
+}
